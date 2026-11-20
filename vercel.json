@@ -1,0 +1,19 @@
+{
+  "rewrites": [{ "source": "/download", "destination": "/note.pdf" }],
+  "headers": [
+    {
+      "source": "/download",
+      "headers": [
+        { "key": "Content-Type", "value": "application/pdf" },
+        { "key": "Content-Disposition", "value": "attachment; filename=\"japanese-answer-note.pdf\"; filename*=UTF-8''%EC%9D%BC%EB%B3%B8%EC%96%B4_%EC%84%9C%EC%88%A0%ED%98%95_%ED%8F%89%EA%B0%80_%EC%A0%95%EB%8B%B5%EB%85%B8%ED%8A%B8.pdf" }
+      ]
+    },
+    {
+      "source": "/note.pdf",
+      "headers": [
+        { "key": "Content-Type", "value": "application/pdf" },
+        { "key": "Content-Disposition", "value": "inline; filename=\"japanese-answer-note.pdf\"" }
+      ]
+    }
+  ]
+}

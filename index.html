@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>2학년 일본어 서술형 평가 · 정답 노트</title>
+<meta name="description" content="2학년 일본어 서술형 평가 정답 + 발음 노트 (6쪽). 미리보기와 PDF 저장.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="2학년 일본어 서술형 평가 · 정답 노트">
+<meta property="og:description" content="정답 + 발음 6쪽 · 미리보기 & PDF 저장">
+<meta property="og:image" content="https://jp-answer-note.vercel.app/og.jpg">
+<meta property="og:url" content="https://jp-answer-note.vercel.app/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#fbf8f3">
+<script>
+/* 인스타·페북·카톡 등 인앱 브라우저 감지 → 사파리/크롬으로 탈출 */
+(function () {
+  var ua = navigator.userAgent || "";
+  var inApp = /Instagram|FBAN|FBAV|FB_IAB|KAKAOTALK|Line\/|NAVER\(inapp|DaumApps|everytimeApp|Threads|Snapchat|TikTok|musical_ly|Bytedance|Whale\/.*inapp/i.test(ua);
+  var isAndroid = /Android/i.test(ua);
+  var isIOS = /iPhone|iPad|iPod/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  var url = location.href;
+  window.__ENV = { inApp: inApp, isAndroid: isAndroid, isIOS: isIOS };
+  if (!inApp) return;
+
+  // 카카오톡: 자체 외부브라우저 스킴
+  if (/KAKAOTALK/i.test(ua)) {
+    location.href = "kakaotalk://web/openExternal?url=" + encodeURIComponent(url);
+    return;
+  }
+  // 안드로이드: 크롬 intent 로 바로 열기
+  if (isAndroid) {
+    location.href = "intent://" + url.replace(/^https?:\/\//, "") +
+      "#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=" + encodeURIComponent(url) + ";end";
+    return;
+  }
+  // iOS: 사파리 스킴 시도 (iOS 17+). 실패하면 안내 화면이 그대로 보임
+  if (isIOS && !sessionStorage.getItem("triedSafari")) {
+    try { sessionStorage.setItem("triedSafari", "1"); } catch (e) {}
+    location.href = "x-safari-" + url;
+  }
+})();
+</script>
+<style>
+  :root {
+    --bg: #fbf8f3; --ink: #1f1d1a; --muted: #6f6a62; --line: #e7e1d6;
+    --accent: #d6453d; --accent-ink: #fff; --card: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Noto Sans KR", "Malgun Gothic", sans-serif;
+    -webkit-text-size-adjust: 100%; }
+  header { padding: 28px 20px 8px; max-width: 760px; margin: 0 auto; }
+  .eyebrow { font-size: 13px; letter-spacing: .04em; color: var(--accent); font-weight: 700; }
+  h1 { font-size: 24px; line-height: 1.3; margin: 6px 0 6px; letter-spacing: -.02em; }
+  .meta { color: var(--muted); font-size: 14px; }
+  .actions { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+  .actions-in { max-width: 760px; margin: 0 auto; padding: 12px 20px; display: flex; gap: 10px; }
+  .btn { flex: 1; display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    height: 50px; border-radius: 14px; font-size: 16px; font-weight: 700; text-decoration: none;
+    border: 1px solid var(--line); background: var(--card); color: var(--ink); cursor: pointer; }
+  .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .btn svg { width: 20px; height: 20px; }
+  main { max-width: 760px; margin: 0 auto; padding: 18px 14px 60px; }
+  .page { background: var(--card); border-radius: 10px; box-shadow: 0 1px 2px rgba(0,0,0,.06), 0 6px 20px rgba(0,0,0,.06);
+    margin: 0 0 18px; overflow: hidden; position: relative; }
+  .page canvas { display: block; width: 100%; height: auto; }
+  .ph { aspect-ratio: 909 / 1287; background: linear-gradient(90deg,#f3efe8 0%,#faf7f2 50%,#f3efe8 100%); background-size: 200% 100%; animation: sh 1.2s infinite linear; }
+  @keyframes sh { to { background-position: -200% 0; } }
+  .pno { position: absolute; right: 10px; bottom: 10px; font-size: 12px; background: rgba(31,29,26,.72); color: #fff;
+    padding: 3px 8px; border-radius: 999px; }
+  footer { text-align: center; color: var(--muted); font-size: 13px; padding: 0 20px 40px; }
+
+  /* 인앱 브라우저 안내 */
+  #escape { display: none; position: fixed; inset: 0; z-index: 50; background: rgba(20,18,16,.86); color: #fff;
+    padding: 24px; padding-top: max(24px, env(safe-area-inset-top)); }
+  #escape.show { display: block; }
+  #escape .arrow { position: absolute; top: max(10px, env(safe-area-inset-top)); right: 18px; font-size: 44px; line-height: 1; }
+  #escape .box { margin-top: 70px; max-width: 420px; }
+  #escape h2 { font-size: 22px; margin: 0 0 12px; line-height: 1.35; }
+  #escape ol { padding-left: 20px; line-height: 1.8; font-size: 16px; margin: 0 0 20px; }
+  #escape b { color: #ffd36b; }
+  #escape .row { display: flex; gap: 10px; flex-wrap: wrap; }
+  #escape .btn { flex: 1 1 auto; min-width: 140px; }
+  #escape .ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.35); }
+  #toast { position: fixed; left: 50%; bottom: 28px; transform: translateX(-50%); background: #1f1d1a; color: #fff;
+    padding: 10px 16px; border-radius: 10px; font-size: 14px; opacity: 0; transition: opacity .2s; z-index: 60; pointer-events: none; }
+  #toast.show { opacity: 1; }
+</style>
+</head>
+<body>
+
+<div id="escape" role="dialog" aria-modal="true">
+  <div class="arrow">↗</div>
+  <div class="box">
+    <h2>앱 안에서는 PDF 저장이 안 돼요.<br>사파리·크롬으로 열어주세요</h2>
+    <ol>
+      <li>오른쪽 위 <b>⋯</b> (또는 <b>⋮</b>) 버튼을 누르고</li>
+      <li><b>“외부 브라우저에서 열기”</b> 또는 <b>“Safari로 열기”</b> 선택</li>
+    </ol>
+    <div class="row">
+      <a class="btn primary" id="openExt" href="#">브라우저로 열기</a>
+      <button class="btn ghost" id="copyLink" type="button">링크 복사</button>
+    </div>
+    <p style="font-size:13px;opacity:.75;margin-top:16px">링크 복사 후 사파리·크롬 주소창에 붙여넣어도 돼요.</p>
+    <button class="btn ghost" id="justView" type="button" style="margin-top:8px;width:100%">그냥 여기서 미리보기만 할게요</button>
+  </div>
+</div>
+
+<header>
+  <div class="eyebrow">2학년 일본어 · 서술형 평가</div>
+  <h1>정답 + 발음 노트</h1>
+  <div class="meta">총 6쪽 · PDF 약 220KB</div>
+</header>
+
+<div class="actions">
+  <div class="actions-in">
+    <a class="btn primary" id="dl" href="/download" download="일본어_서술형_평가_정답노트.pdf">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+      PDF 저장
+    </a>
+    <a class="btn" href="/note.pdf" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg>
+      원본 열기
+    </a>
+  </div>
+</div>
+
+<main id="pages"></main>
+
+<footer>아이폰: <b>PDF 저장</b> → 공유 버튼 → <b>“파일에 저장”</b>을 누르면 보관돼요.</footer>
+<div id="toast"></div>
+
+<script>
+(function () {
+  var N = 6, wrap = document.getElementById("pages"), slots = [];
+  for (var i = 1; i <= N; i++) {
+    var d = document.createElement("div"); d.className = "page";
+    d.innerHTML = '<div class="ph"></div><span class="pno">' + i + ' / ' + N + '</span>';
+    wrap.appendChild(d); slots.push(d);
+  }
+  function fail() {
+    wrap.innerHTML = '<div class="page"><iframe src="/note.pdf#view=FitH" title="PDF 미리보기" style="width:100%;height:80vh;border:0"></iframe></div>';
+  }
+  function render() {
+    var lib = window.pdfjsLib; if (!lib) return fail();
+    lib.GlobalWorkerOptions.workerSrc = "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/legacy/build/pdf.worker.min.js";
+    lib.getDocument({ url: "/note.pdf", cMapUrl: "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/cmaps/", cMapPacked: true }).promise.then(function (pdf) {
+      var chain = Promise.resolve();
+      for (var n = 1; n <= pdf.numPages; n++) (function (n) {
+        chain = chain.then(function () { return pdf.getPage(n); }).then(function (page) {
+          var slot = slots[n - 1]; if (!slot) return;
+          var cssW = slot.clientWidth || 360, base = page.getViewport({ scale: 1 });
+          var dpr = Math.min(window.devicePixelRatio || 1, 3);
+          var vp = page.getViewport({ scale: cssW / base.width * dpr });
+          var c = document.createElement("canvas"); c.width = vp.width; c.height = vp.height;
+          c.setAttribute("aria-label", n + "쪽");
+          slot.replaceChild(c, slot.querySelector(".ph"));
+          return page.render({ canvasContext: c.getContext("2d"), viewport: vp }).promise;
+        });
+      })(n);
+      return chain;
+    }).catch(fail);
+  }
+  var sc = document.createElement("script");
+  sc.src = "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/legacy/build/pdf.min.js";
+  sc.onload = render; sc.onerror = fail; document.head.appendChild(sc);
+
+  var env = window.__ENV || {}, url = location.href.split("#")[0];
+  var esc = document.getElementById("escape");
+  function toast(t) { var el = document.getElementById("toast"); el.textContent = t; el.classList.add("show"); setTimeout(function(){ el.classList.remove("show"); }, 1800); }
+  function extUrl() {
+    if (env.isAndroid) return "intent://" + url.replace(/^https?:\/\//, "") + "#Intent;scheme=https;package=com.android.chrome;S.browser_fallback_url=" + encodeURIComponent(url) + ";end";
+    if (env.isIOS) return "x-safari-" + url;
+    return url;
+  }
+  if (env.inApp) {
+    esc.classList.add("show");
+    document.getElementById("openExt").href = extUrl();
+  }
+  document.getElementById("justView").onclick = function () { esc.classList.remove("show"); };
+  document.getElementById("copyLink").onclick = function () {
+    function ok() { toast("링크를 복사했어요"); }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(ok, fallback);
+    } else fallback();
+    function fallback() {
+      var t = document.createElement("textarea"); t.value = url; document.body.appendChild(t); t.select();
+      try { document.execCommand("copy"); ok(); } catch (e) { prompt("아래 링크를 복사하세요", url); }
+      document.body.removeChild(t);
+    }
+  };
+  // 인앱에서 저장 누르면 다시 안내
+  document.getElementById("dl").addEventListener("click", function (e) {
+    if (env.inApp) { e.preventDefault(); esc.classList.add("show"); }
+  });
+})();
+</script>
+</body>
+</html>
